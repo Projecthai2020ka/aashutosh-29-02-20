@@ -1,0 +1,131 @@
+.i1{
+    background: lightgreen;
+   }
+
+img{
+    max-width: 100%;
+    height: auto;
+    background: lightblue;
+    background:radial-gradient(white 30% lightblue 70%);
+}
+.abc{
+    width: 260px;
+    height: 240px;
+}
+
+.text1{
+   float: right;
+   text-align: right;
+   padding-top: 10px;
+   width:50%;
+}
+.text2{
+    text-align: left;
+    padding-top: 10px;
+    width:50%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: tomato;
+   }
+   
+   .buscar-caja {
+    position: absolute;
+    top: 17%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    height: 35px;
+    border-radius: 25px;
+ 
+   }
+   
+   .buscar-caja:hover > .buscar-txt {
+    width: 340px;
+  
+   }
+   
+   .buscar-caja:hover > .buscar-btn {
+    
+    color: black;
+   }
+   
+   .buscar-btn {
+    color: #e84118;
+    float: right;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+    color: white;
+    cursor: pointer;
+   }
+   
+   .buscar-btn > i {
+    font-size: 25px;
+    
+   }
+ 
+   .buscar-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    padding-left: 25px;
+    color: black;
+    font-size: 14px;
+    transition: 0.7s;
+    line-height: 33px;
+    width: 0px;
+    font-weight: bold;
+   }
+   #td1{
+    word-spacing: 20px;
+
+    padding-top:2%;
+    padding-bottom:1%;
+
+   }
+   #td2{
+padding: 0px;
+padding-top: 5px;
+width: 65%;
+      }
+#td3{
+        word-spacing: 5px;
+    
+        padding-top:2%;
+        padding-bottom:1%;
+        padding-left: 8%;
+}
+#td4{
+    
+    padding-right:20px;
+    padding-bottom: 10px;
+}
+#cart_count{
+    text-align:center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+
+}
+.shopping-cart{
+
+        padding: 3% 0;
+
+}
+.cart-items + .cart-items{
+
+padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
